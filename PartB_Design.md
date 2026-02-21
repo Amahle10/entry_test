@@ -11,6 +11,7 @@
 ### 1. Data Structure Choices
 **Explain your design decisions for BOTH contracts:**
 - When would you choose to use a `mapping` instead of an `array`?
+  i would use mapping if i want to have key value data, and an array if i want a structured data with same datatype.
 - How did you structure your state variables in `FreelanceBountyBoard` vs `DecentralisedRaffle`?
 - What trade-offs did you consider for storage efficiency?
 

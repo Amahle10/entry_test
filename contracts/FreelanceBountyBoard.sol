@@ -8,11 +8,40 @@ pragma solidity ^0.8.18;
  */
 contract FreelanceBountyBoard {
     
+
+    Freelancer Management: Implementation of registerFreelancer with input validation and duplicate prevention.
+    Bounty Workflow: Implementation of postBounty (accepting payments), applyForBounty, and submitWork.
+    Payment & Security: Implementation of approveAndPay using the Checks-Effects-Interactions pattern to prevent reentrancy attacks.
+    Events: Proper emission of events for all state-changing operations.
+    string memory public freelancer;
+
     // TODO: Define your state variables here
     // Consider:
     // - How will you track freelancers and their skills?
     // - How will you store bounty information?
     // - How will you manage payments?
+
+    
+
+    ///ohk cool, so you have a platform, a FreelanceBountyBoard
+    where you can list a bounty for specific item, so you have freelancers
+    that register to be freelancers,
+
+    a freelancer will register
+    a freelancer will list skills
+
+    a freelancer with skills will select bounty, 
+
+    a freelancer will submit work 
+
+    var registerFreelancer
+    var registerBountyPlacer
+
+    var postBounty(price, item)
+
+    var skills,
+    var bounty,
+    var paywork///
     
     address public owner;
     
