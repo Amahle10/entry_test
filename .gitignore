@@ -20,6 +20,9 @@ typechain-types/
 .env.test.local
 .env.production.local
 
+credentials.json
+token.json
+
 # Build
 dist/
 build/
@@ -53,3 +56,5 @@ docs/GRADING_RUBRIC.md
 grading_feedback/
 student_submissions.md
 submissions/
+create_gmail_drafts.py
+extract_emails.sh

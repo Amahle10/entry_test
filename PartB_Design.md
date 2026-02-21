@@ -1,8 +1,8 @@
 # Part B: Design Document
 
-**Section 1: SkillsMarketplace (Agricultural Marketplace)**
+**Section 1: FreelanceBountyBoard (Renewable Energy Platform)**
 
-**Section 2: SecureLottery (DeFi & NFT Integration)**
+**Section 2: DecentralisedRaffle (DeFi & NFT Integration)**
 
 ---
 
@@ -11,7 +11,7 @@
 ### 1. Data Structure Choices
 **Explain your design decisions for BOTH contracts:**
 - When would you choose to use a `mapping` instead of an `array`?
-- How did you structure your state variables in `SkillsMarketplace` vs `SecureLottery`?
+- How did you structure your state variables in `FreelanceBountyBoard` vs `DecentralisedRaffle`?
 - What trade-offs did you consider for storage efficiency?
 
 [Write your response here]
@@ -23,7 +23,7 @@
 - Reentrancy attacks? (Explain your implementation of the Checks-Effects-Interactions pattern)
 - Access control vulnerabilities?
 - Integer overflow/underflow?
-- Front-running/Randomness manipulation (specifically for `SecureLottery`)?
+- Front-running/Randomness manipulation (specifically for `DecentralisedRaffle`)?
 
 [Write your response here]
 
@@ -43,7 +43,7 @@
 
 ### 1. Gas Costs
 **Analyze the viability of your contracts for real-world use:**
-- Estimated gas for key functions (e.g., `postGig`, `selectWinner`).
+- Estimated gas for key functions (e.g., `postBounty`, `selectWinner`).
 - Is this viable for users in constrained environments (e.g., high gas fees)?
 - Any specific optimization strategies you implemented?
 
@@ -52,10 +52,10 @@
 ---
 
 ### 2. Scalability
-**What happens with 10,000+ entries/gigs?**
+**What happens with 10,000+ entries/bounties?**
 - Performance considerations for loops or large arrays.
 - Storage cost implications.
-- Potential bottlenecks in `selectWinner` or `applyForGig`.
+- Potential bottlenecks in `selectWinner` or `applyForBounty`.
 
 [Write your response here]
 

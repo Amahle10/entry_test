@@ -3,7 +3,7 @@
 Welcome to the entry test! You have **3 hours** to complete the entire assessment. 
 
 > [!IMPORTANT]
-> You must complete **BOTH** PART 1 (Skills Marketplace) and PART 2 (Secure Lottery) for all parts of this assessment.
+> You must complete **BOTH** PART 1 (Freelance Bounty Board) and PART 2 (Decentralised Raffle) for all parts of this assessment.
 
 ---
 
@@ -54,15 +54,15 @@ npx hardhat
 
 ### Part B: Design & Implementation
 You are provided with two contract skeletons in `contracts/`:
-1. `SkillsMarketplace.sol` (PART 1)
-2. `SecureLottery.sol` (PART 2)
+1. `FreelanceBountyBoard.sol` (PART 1)
+2. `DecentralisedRaffle.sol` (PART 2)
 
 **Your Tasks for BOTH contracts:**
 1. **Implementation:** Complete the `TODO` sections in both `.sol` files.
 2. **Design Documentation:** Fill in `PartB_Design.md` detailing your architectural choices, security measures, and trade-offs.
 3. **Test Planning:** Fill in `PartB_Tests.md` with your test scenarios.
 4. **Test Implementation:** Create a `test/` directory and implement automated tests for both contracts using Hardhat.
-   - Example: `test/SkillsMarketplace.test.js` and `test/SecureLottery.test.js`
+   - Example: `test/FreelanceBountyBoard.test.js` and `test/DecentralisedRaffle.test.js`
    - Run tests with: `npx hardhat test`
 
 
@@ -70,14 +70,14 @@ You are provided with two contract skeletons in `contracts/`:
 
 ## Functional Specifications
 
-### PART 1: Skills Marketplace
-- **Worker Management:** Implementation of `registerWorker` with input validation and duplicate prevention.
-- **Gig Workflow:** Implementation of `postGig` (accepting payments), `applyForGig`, and `submitWork`.
+### PART 1: Freelance Bounty Board
+- **Freelancer Management:** Implementation of `registerFreelancer` with input validation and duplicate prevention.
+- **Bounty Workflow:** Implementation of `postBounty` (accepting payments), `applyForBounty`, and `submitWork`.
 - **Payment & Security:** Implementation of `approveAndPay` using the **Checks-Effects-Interactions** pattern to prevent reentrancy attacks.
 - **Events:** Proper emission of events for all state-changing operations.
 
-### PART 2: Secure Lottery
-- **Participation:** Implementation of `enter` with minimum entry requirements and multi-entry support.
+### PART 2: Decentralised Raffle
+- **Participation:** Implementation of `enterRaffle` with minimum entry requirements and multi-entry support.
 - **Winner Selection:** A `selectWinner` function that calculates a "winner" from total entries and distributes the pot (90% to winner, 10% to owner).
 - **Randomness Challenge:** Application of a secure randomness mechanism (e.g., using block data or VDF concepts).
 - **Safety:** Implementation of an emergency circuit breaker (pause/unpause) and reentrancy protection.
@@ -90,8 +90,8 @@ You are provided with two contract skeletons in `contracts/`:
 ```
 blockchain_dev_entry_test/
 ├── contracts/
-│   ├── SkillsMarketplace.sol     # Complete this (Scenario 1)
-│   └── SecureLottery.sol         # Complete this (Scenario 2)
+│   ├── FreelanceBountyBoard.sol  # Complete this (Scenario 1)
+│   └── DecentralisedRaffle.sol   # Complete this (Scenario 2)
 ├── test/                         # [NEW] Create your tests here
 ├── PartA_MCQ_Answers.md          # Complete ALL questions
 ├── PartB_Design.md               # Document BOTH designs

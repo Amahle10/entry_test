@@ -4,11 +4,11 @@
 
 ---
 
-## Test Scenario 1: SkillsMarketplace
-**Target:** `SkillsMarketplace.sol`
+## Test Scenario 1: FreelanceBountyBoard
+**Target:** `FreelanceBountyBoard.sol`
 
 ### 1.1 Happy Path
-**Description**: Test successful gig posting and payment.
+**Description**: Test successful bounty posting and payment.
 - **Steps**: ...
 - **Expected Result**: ...
 
@@ -19,8 +19,8 @@
 
 ---
 
-## Test Scenario 2: SecureLottery
-**Target:** `SecureLottery.sol`
+## Test Scenario 2: DecentralisedRaffle
+**Target:** `DecentralisedRaffle.sol`
 
 ### 2.1 Happy Path
 **Description**: Test entry and winner selection.
@@ -36,7 +36,7 @@
 
 ## Coverage Assessment
 After implementing your tests in `test/`, assess your coverage:
-1. **Link to test files:** (e.g., `test/SkillsMarketplace.test.js`)
+1. **Link to test files:** (e.g., `test/FreelanceBountyBoard.test.js`)
 2. **Key functions tested:**
 3. **Estimated Coverage:** (Aim for 80%+)
 
