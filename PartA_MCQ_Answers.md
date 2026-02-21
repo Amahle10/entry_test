@@ -30,11 +30,11 @@
 - **D)** Build everything as separate NFT collections with no DEX integration since providers won't understand DeFi protocols.  
 
 **Your Answer:** [A/B/C/D]  
-
+B
 **Your Reasoning:**  
 [2–3 sentences explaining why you chose this answer. What makes it the best choice?]  
 
----
+--- option B meets all the requirements. it uses ECR-721 for energy credits-enabling batch listings from providers, using ECR-721 allows users to trade tokens for energy credit, also implementation of reputation on chain allows transparacy, solution B also uses a DEX like Uniswap for direct provider-to-buyer swaps to minimise intermediaries. 
 
 ### Question 2: Cost Optimisation (Practical Aptitude)
 
@@ -77,11 +77,11 @@ A micro-grid provider asks: *"Why can't we just use a normal website with a data
 - **D)** "Blockchain uses cryptography which makes it unhackable, unlike normal databases."  
 
 **Your Answer:** [A/B/C/D]  
-
+B
 **Your Explanation:**  
 [2–3 sentences explaining what makes this answer correct. What did you learn about why blockchain matters in Africa?]  
 
----
+--- "With blockchain, no middleman can manipulate your pricing or payment records- meaning buyers connect with sellers directly and having transaction records on chain and available to both buyers and sellers "view If a buyer claims they paid but you didn't receive funds, the blockchain provides immutable proof". and with a transparent transaction record the data is usable, helpful for future reputation "your reputation score can follow you to other platforms since it's on-chain – it's your data, not the platform's".
 
 ## PART 2: DeFi & NFT Integration (Advanced Concepts)
 
@@ -104,7 +104,7 @@ A micro-grid provider asks: *"Why can't we just use a normal website with a data
 - **D)** The constant product formula prevents any impermanent loss by automatically rebalancing. DAOs cannot implement financial protections due to smart contract immutability. ERC-1155 tokens are incompatible with standard DEX protocols.  
 
 **Your Answer:** [A/B/C/D]  
-
+B
 **Your Reasoning:**  
 
 - **AMM Mathematics:** How do you calculate the swap output? What happens to the liquidity provider's value?  
@@ -125,4 +125,4 @@ A micro-grid provider asks: *"Why can't we just use a normal website with a data
 
 ---
 
-**Challenges faced:** [What was difficult? Which concepts are you less confident about?]  
+**Challenges faced:** [What was difficult? Which concepts are you less confident about?]  Cost Optimisation and DeFi & NFT Integration
